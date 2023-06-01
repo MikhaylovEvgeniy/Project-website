@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мадагаскар</title>
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#dba904">
+  <meta name="msapplication-TileColor" content="#dba904">
+  <meta name="theme-color" content="#dba904">
+  
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&amp;subset=cyrillic"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <link rel="stylesheet" href="../../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../../css/slick.css">
+    <link rel="stylesheet" href="../../css/style.css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+  </header>
+  <section id="sil">
+  </section>
+  <section id="what" class="about condition">
+  </section>
+  <section class="cond">
+    <div class="container">
+      <div id="infoper" class="inforep">
+      </div>
+      <table id="voucherstab" class="iksweb">
+      </table>
+      <div id="dopinfotable" class="dopinfotable">
+      </div>
+    </div>
+  </section>
+  <div id="chack"></div>
+  <section class="about">
+    <div class="container">
+      <div class="about__top">
+        <div class="about__title-box">
+          <div class="about-title">
+            Как мы работаем
+          </div>
+          <div class="about__text">
+          </div>
+        </div>
+      </div>
+  </section>
+  <div id="proc"></div>
+  <footer id="footer">
+  </footer>
+  <div id="modal" class="container">
+    <div class="form">
+      <h1 class="form__title">Оставить заявку для звонка</h1>
+      <form action="send_mail.php" name="form" method="POST">
+        <div class="input-box">
+          <input class="form__input" type="text" placeholder="Ваше имя*" name="name" id="name" data-reg="[а-яА-Я]" />
+          <label class="form__label" for="name">Только русские буквы</label>
+        </div>
+        <div class="input-box">
+          <input class="form__input" type="text" placeholder="Введите телефон*" name="phone" id="phone"
+            data-reg="^((\+7|7|8)+([0-9]){10})$" />
+          <label class="form__label" for="phone">В формате: 88000000000 или 78000000000</label>
+        </div>
+        <div class="input-box">
+          <input class="form__input" type="text" placeholder="Введите email*" name="email" id="email"
+            data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" />
+          <label class="form__label" for="email">В формате: your-name@email.com/ru</label>
+        </div>
+        <div id="formt" class="testform">
+        </div>
+      </form>
+    </div>
+    <div id="errror" class="form-error form-error_hide">Исправьте данные и отправьте форму еще раз</div>
+    <div id="nice" class="form-nice form-nice_hide">Заявка успешно отправлена</div>
+    <div id="fail" class="form-fail form-nice_hide">Ошибка отправки формы. Повторите попытку.</div>
+  </div>
+
+  <script src="../../js/vouchers/Madagaskar/MadagaskarCatalog.js"></script>
+  <script src="../../js/body/catalog/CheckCatalog.js"></script>
+  <script src="../../js/vouchers/catalog/VouchersCatalog.js"></script>
+  <script src="../../js/vouchers/VouchersInfo.js"></script>
+  <script src="../../js/vouchers/TableScript.js"></script>
+  <script src="../../js/body/Check.js"></script>
+  <script src="../../js/body/Form.js"></script>
+  <script src="../../js/body/Foot.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../../js/jquery.fancybox.min.js"></script>
+  <script src="../../js/slick.min.js"></script>
+  <script src="../../js/osnova/main.js"></script>
+  <script src="../../js/swiper-bundle.min.js"></script>
+  <script src="../../js/osnova/script.js"></script>
+  <script src="../../js/osnova/app.js"></script>
+
+</body>
+
+</html>
