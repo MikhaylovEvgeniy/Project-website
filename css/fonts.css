@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?vknwuv');
+  src:  url('../fonts/icomoon.eot?vknwuv#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vknwuv') format('truetype'),
+    url('../fonts/icomoon.woff?vknwuv') format('woff'),
+    url('../fonts/icomoon.svg?vknwuv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location-pin:before {
+  content: "\e900";
+}
+.icon-text:before {
+  content: "\e901";
+}
+.icon-check-square:before {
+  content: "\e902";
+}
+.icon-chevron-left:before {
+  content: "\e903";
+}
+.icon-chevron-right:before {
+  content: "\e904";
+}
+.icon-edit:before {
+  content: "\e905";
+}
+.icon-menu:before {
+  content: "\e906";
+}
+.icon-truck:before {
+  content: "\e907";
+}
+.icon-chevron-left1:before {
+  content: "\f053";
+}
+.icon-chevron-right1:before {
+  content: "\f054";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-quote-right:before {
+  content: "\f10e";
+}
